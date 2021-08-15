@@ -13,6 +13,7 @@ https://www.kiwoom.com/h/customer/download/VOpenApiInfoView  (출처)<br>
 추가로 키움증권에서 제공하는 함수를 직관적으로 확인할 수 있도록 KOA Studio라는 프로그램을 제공한다.<br>
 ![image](https://user-images.githubusercontent.com/68767122/129469902-eae88532-ede8-4a53-b6fb-1f9a84eadd4d.png)<br>
 ![image](https://user-images.githubusercontent.com/68767122/129470472-b6e5997d-8060-456f-be57-a6f8fe72adb3.png)<br>
+![image](https://user-images.githubusercontent.com/68767122/129470472-b6e5997d-8060-456f-be57-a6f8fe72adb3.png)<br>
 KOA Studio 확인 시 OpenAPI에서는 서버를 통한 데이터 요청과 수신(이벤트 호출)을 통해 동작함을 확인할 수 있다.<br>
 ### C# (개발 언어) 및 샘플 코드
 개발 언어는 C#으로 선정하였다. Python에서 AI연동 및 다양한 라이브러리 사용이 가능하지만 C#을 최종적으로 선택한 이유는 다음과 같다.<br>
