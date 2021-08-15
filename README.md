@@ -21,10 +21,10 @@ KOA Studio 확인 시 OpenAPI에서는 서버를 통한 데이터 요청과 수�
 - C#의 우수한 메모리 관리 기능 (Garbage Collector)
 - Compiler 언어 특성으로 한번 컴파일 이후로는 빠른 성능
 <br>
-C#으로 개발하기 앞서 예제 코드를 보면서 어떻게 프로그램을 작성해야 할 지 생각하였다.
+C#으로 개발하기 앞서 예제 코드를 보면서 어떻게 프로그램을 작성해야 할 지 생각하였다.<br>
 ![image](https://user-images.githubusercontent.com/68767122/129470064-add67b4a-9710-450f-becd-f31f1896b365.png)
 ![image](https://user-images.githubusercontent.com/68767122/129470083-0e4c661c-7d93-4dca-be80-eccfb622370a.png)
-다음과 같은 구조로 되어있다. 
+다음과 같은 구조로 되어있다. <br>
 - Window Form에서 버튼 / Label 등 GUI 영역을 만든 후 로그인 / 조회 / 주문 등의 요청를 수행한다.
 - 별도 구현한 이벤트 함수를 통해 데이터 수신 시 함수 작동
 OpenAPI 라이브러리를 Form에서 가져왔는데, 도구상자 - 마우스 우클릭 - 항목선택 클릭 시 COM 구성요소에서 키움 OpenAPI를 확인할 수 있다.<br>
