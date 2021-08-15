@@ -31,6 +31,19 @@ C#으로 개발하기 앞서 예제 코드를 보면서 어떻게 프로그램�
 <br><br>
 OpenAPI 라이브러리를 Form에서 가져왔는데, 도구상자 - 마우스 우클릭 - 항목선택 클릭 시 COM 구성요소에서 키움 OpenAPI를 확인할 수 있다.<br>
 ![image](https://user-images.githubusercontent.com/68767122/129471121-6a50b7c7-3896-4cc6-b2eb-9e602b2a96e5.png)<br>
-
-
-
+## ②프로그램 설계
+![image](https://user-images.githubusercontent.com/68767122/129473789-597fdfcc-b690-4b3e-8d11-6f83e568a128.png)<br>
+프로그램 설계 방향은 다음과 같았다.
+- 예제 코드 기반으로 코드 작성 (개발 기간 단축)
+- 차트 Plot 기능 추가
+- 원하는 알고리즘을 선택하고 실행할 시 자동매매가 동작하도록 설정
+- 예수금에서 사용할 금액을 %로 지정
+### 로그 출력
+![image](https://user-images.githubusercontent.com/68767122/129473647-9340e003-f8fe-41e7-bf90-e9c96253f91b.png)<br>
+Log Interface를 만들어 Form에서 상속하도록 설정<br>
+ -> 순환참조를 막고 외부 클래스(알고리즘 등)에서 Form에 존재하는 Log에 출력할 수 있도록 설정<br>
+### 차트 출력
+![image](https://user-images.githubusercontent.com/68767122/129473834-c2e42995-8670-4b94-9a2b-2de36b0a9a24.png)<br>
+"주식일봉차트조회"데이터 전송 시 차트 출력 변수로 On으로 설정하면 수신 이벤트 발생 시 차트 출력하도록 설정<br>
+### 알고리즘
+현재 설계 中
