@@ -15,15 +15,14 @@ https://www.kiwoom.com/h/customer/download/VOpenApiInfoView  (출처)<br>
 ![image](https://user-images.githubusercontent.com/68767122/129470472-b6e5997d-8060-456f-be57-a6f8fe72adb3.png)<br>
 KOA Studio 확인 시 OpenAPI에서는 서버를 통한 데이터 요청과 수신(이벤트 호출)을 통해 동작함을 확인할 수 있다.<br>
 ### C# (개발 언어) 및 샘플 코드
-![image](https://user-images.githubusercontent.com/68767122/129470796-a4312814-96d3-4b54-9c19-aebd183db5b5.png)
 개발 언어는 C#으로 선정하였다. Python에서 AI연동 및 다양한 라이브러리 사용이 가능하지만 C#을 최종적으로 선택한 이유는 다음과 같다.<br>
 - Pyqt 대비 Window Form의 직관성 / 개발 편의성
 - C# 또한 다양한 라이브러리 존재
 - C#의 우수한 메모리 관리 기능 (Garbage Collector)
 - Compiler 언어 특성으로 한번 컴파일 이후로는 빠른 성능
-<br>
+<br><br>
 C#으로 개발하기 앞서 예제 코드를 보면서 어떻게 프로그램을 작성해야 할 지 생각하였다.<br>
-
+![image](https://user-images.githubusercontent.com/68767122/129470796-a4312814-96d3-4b54-9c19-aebd183db5b5.png)
 
 다음과 같은 구조로 되어있다. <br>
 - Window Form에서 버튼 / Label 등 GUI 영역을 만든 후 로그인 / 조회 / 주문 등의 요청를 수행한다.
