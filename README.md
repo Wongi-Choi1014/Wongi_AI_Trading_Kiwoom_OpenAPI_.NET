@@ -8,7 +8,7 @@
 키움 증권에서는 직접 프로그램 투자를 할 수 있도록 OpenAPI+ 서비스를 제공하고 있다.<br>
 ![image](https://user-images.githubusercontent.com/68767122/129469597-5af0715d-b8a3-4ae4-af08-1f75b0b76d0a.png)
 ![image](https://user-images.githubusercontent.com/68767122/129469603-d49cc407-581b-4213-a99a-76fe44f9780c.png)
-https://www.kiwoom.com/h/customer/download/VOpenApiInfoView  (출처)
+https://www.kiwoom.com/h/customer/download/VOpenApiInfoView  (출처)<br>
 위 사이트에서 OpenAPI 신청 및 다운로드가 가능하다. <br>
 추가로 키움증권에서 제공하는 함수를 직관적으로 확인할 수 있도록 KOA Studio라는 프로그램을 제공한다.<br>
 ![image](https://user-images.githubusercontent.com/68767122/129469902-eae88532-ede8-4a53-b6fb-1f9a84eadd4d.png)
@@ -29,3 +29,4 @@ C#으로 개발하기 앞서 예제 코드를 보면서 어떻게 프로그램�
 - 별도 구현한 이벤트 함수를 통해 데이터 수신 시 함수 작동
 OpenAPI 라이브러리를 Form에서 가져왔는데, 도구상자 - 마우스 우클릭 - 항목선택 클릭 시 COM 구성요소에서 키움 OpenAPI를 확인할 수 있다.<br>
 ![image](https://user-images.githubusercontent.com/68767122/129470562-356818cb-71e3-4745-8af5-5bd9741007a6.png)
+![image](https://user-images.githubusercontent.com/68767122/129470636-99fac9e6-136f-42fc-a980-3ad74cfefed9.png)
