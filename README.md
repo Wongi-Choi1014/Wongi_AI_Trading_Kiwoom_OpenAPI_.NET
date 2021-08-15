@@ -22,7 +22,7 @@ KOA Studio 확인 시 OpenAPI에서는 서버를 통한 데이터 요청과 수�
 - Compiler 언어 특성으로 한번 컴파일 이후로는 빠른 성능
 <br>
 C#으로 개발하기 앞서 예제 코드를 보면서 어떻게 프로그램을 작성해야 할 지 생각하였다.<br>
-![image](https://user-images.githubusercontent.com/68767122/129470776-3fcab12a-5fb6-4005-897e-05d2079888d0.png)
+![image](https://user-images.githubusercontent.com/68767122/129470796-a4312814-96d3-4b54-9c19-aebd183db5b5.png)
 
 다음과 같은 구조로 되어있다. <br>
 - Window Form에서 버튼 / Label 등 GUI 영역을 만든 후 로그인 / 조회 / 주문 등의 요청를 수행한다.
